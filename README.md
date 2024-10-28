@@ -1,75 +1,16 @@
-# Nuxt Minimal Starter
+# Nuxt Responsive App
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+* Use `ui.nuxt.com/getting-started` as a reference.
+* To start the project:
+  * set up a new Nuxt project
+  * Add `@nuxt/ui` module
+* In `app.vue` the basic layout is:
+  * Header (Nav included)
+  * Main
+    * Sidebar
+    * Content
+* To be responsive for mobile screen:
+  * A full screen Modal
+    * Header (Narrow)
+    * Nav
+    * Sidebar
