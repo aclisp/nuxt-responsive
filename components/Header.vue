@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const model = defineModel()
+const model = defineModel<boolean>()
 
 const icon = computed(() => {
   return model.value ? 'i-heroicons-x-mark-16-solid' : 'i-heroicons-bars-3-bottom-left-16-solid'

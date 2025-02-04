@@ -66,15 +66,6 @@ for (let i=0; i<20; ++i) {
     </div>
   </main>
 
-  <UModal v-model="isOpen" fullscreen :transition="false" :overlay="false" :ui="{ background: 'bg-white dark:bg-gray-950' }">
-    <!-- Header -->
-    <Header v-model="isOpen"></Header>
-
-    <div class="py-4 overflow-y-auto">
-      <div class="relative">
-        <UVerticalNavigation :links="links" />
-      </div>
-    </div>
-  </UModal>
+  <ModalNavigation v-model="isOpen" :links="links" />
 
 </template>
